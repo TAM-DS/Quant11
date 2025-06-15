@@ -1,4 +1,4 @@
-# Quant11
+# Quant11Python 
 ##This 30-line algorithm implements quantum teleportation - the foundation of quantum internet
 
 import numpy as np
