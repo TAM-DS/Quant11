@@ -1,6 +1,10 @@
 # Quant11Python 
 ##This 30-line algorithm implements quantum teleportation - the foundation of quantum internet
 
+> 🧠 Quantum Sprint Project #1 | ⏱️ 30 Lines. Built for the Future of FinTech Infrastructure.
+
+
+
 import numpy as np
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit import execute, Aer
@@ -37,3 +41,20 @@ def quantum_teleportation():
     return job.result().get_counts(qc)
 
 # Result: 100% fidelity quantum state transfer
+
+⚙️ Dependencies
+pip install qiskit
+
+📁 How to Run
+from teleportation import quantum_teleportation
+
+counts = quantum_teleportation()
+print(counts)
+
+
+
+
+
+
+
+
