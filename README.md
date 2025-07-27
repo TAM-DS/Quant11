@@ -10,7 +10,7 @@ from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister
 from qiskit import execute, Aer
 
 def quantum_teleportation():
-    # Create quantum circuit with 3 qubits, 3 classical bits
+    # Create a quantum circuit with 3 qubits, 3 classical bits
     qr = QuantumRegister(3, 'q')
     cr = ClassicalRegister(3, 'c')
     qc = QuantumCircuit(qr, cr)
